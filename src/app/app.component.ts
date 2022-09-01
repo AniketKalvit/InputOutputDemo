@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'InputOutputDemo';
+  myMsg="Hello student";
+
+  getChildData(data:string){
+    console.log(data);
+  }
 }
